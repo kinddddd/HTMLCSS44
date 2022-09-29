@@ -75,6 +75,13 @@
     width: 75%;
 }
 
+.small-articles {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .car-list {
     display:inline;
     padding-right:30px;
@@ -109,4 +116,28 @@
 
 .car-img-list-price {
     color:grey;
+}
+
+.car-img-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.car-img-main {
+    font-size: 12px;
+}
+
+.car-img-link {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.car-img-text {
+    width: 250px;
+    height: 300px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border: 2px solid #cccccc;
+    padding: 10px;
 }
