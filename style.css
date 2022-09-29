@@ -85,6 +85,8 @@
     justify-content: space-between;
     border-bottom: 2px solid black;
     padding-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .car-img-list-container {
@@ -98,4 +100,13 @@
 .car-img-list {
     padding-left: 20px;
     padding-right: 1px;
+    text-align: center;
+}
+
+.car-img-list-name {
+    font-weight: bold;
+}
+
+.car-img-list-price {
+    color:grey;
 }
