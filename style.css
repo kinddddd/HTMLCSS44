@@ -152,3 +152,60 @@
 .footer-style {
     background-color: #e6e6e6;
 }
+
+.big-box-border {
+    border: 2px solid black;
+}
+
+.list-footer {
+    color:grey;
+    padding-top: 20px;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.list-footer-li {
+    padding: 5px;
+    list-style-type: none;
+}
+
+#li-title {
+    color:black;
+    font-size: 20px;
+}
+
+
+.list {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.border-footer {
+    border-top: 2px solid grey;
+}
+
+.list-padding {
+    padding-top: 30px;
+}
+
+/* FOOTER OF FOOTER */
+
+.footer-bg {
+    display:flex;
+    justify-content: center;
+    background-color: white;
+    padding-top: 20px;
+}
+
+.footer-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.last-part-prop {
+    width:35%;
+}
