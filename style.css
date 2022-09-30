@@ -51,15 +51,32 @@
 
 .background-img {
     height: 800px;
-    background-image:url(./img/bmwad.jpg);
+    width: 100%;
+    background-image:url("./img/bmwad.jpg");
     background-size:cover;
 }
 
 .bottom-left-ad {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
     align-items: flex-start;
+}
+
+.img-text-top {
+    color:grey;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.img-text-bot {
+    color:grey;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.img-position {
+    padding-left:100px;
 }
 
 /* SECOND PART */
